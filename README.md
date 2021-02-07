@@ -55,3 +55,13 @@ Port: 7379
 Name: NodeDatabases
 ```
 
+## MySQL with Docker
+
+```bash
+docker pull mysql
+```
+
+```bash
+docker run --nmae mysql -p 3406:3306 -e MYSQL_ROOT_PASSWORD=mypassword -d mysql
+```
+
